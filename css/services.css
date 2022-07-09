@@ -1,0 +1,98 @@
+
+/*----------- div start end from here ------------*/
+
+.Div{   
+    width: 100%;
+     display: flex;
+     padding: 3rem;
+ }
+.Div>  .Left{
+  width: 40%;
+ box-shadow:  0 2rem 4rem;
+ padding: 2rem;
+ border-left: 0.6rem solid blue;
+ border-radius: 2rem;
+ margin-left: 7rem;
+ }
+ Div>.Right{
+     width: 40%;
+     box-shadow:  0 2rem 4rem;
+     padding: 2rem;
+     border-left: 0.6rem solid rgb(255, 0, 85);
+     border-radius: 2rem;
+     margin-left: 9rem;
+ }
+  #image{
+    height: 25rem;
+    width: 100%;
+    border-radius: 3rem;
+  }
+
+  .bdiv{
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261__340.jpg");
+    background-size: cover;
+  }
+  .sdiv{
+    background-image: url("https://cdn.flatworldsolutions.com/IT-services/images/outsource-software-maintenance-and-support-services.jpg");
+    background-size: cover;
+  }
+/*----------- div end end from here ------------*/
+/*-------- contact form start from here ---------*/
+.form{
+    width: 50%;
+    margin-left: 40%; 
+    font-size: 2rem;
+    color: aqua;
+}
+#email , #name , #number , #text{
+    border: none;
+    width: 60%;
+    padding: 3rem;
+    font-size: 2rem;
+    color: lime;
+    font-family: 'Raleway', sans-serif;
+}
+.btn{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    width: 25rem;
+    border: none;
+    border-radius: 4rem;
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    transition-duration: 12;
+    box-shadow:  0rem 1rem 3rem red;
+    background-image: linear-gradient(to right , rgb(255, 0, 64) , rgb(255, 153, 0));
+}
+ .btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right , rgb(11, 211, 27) , rgb(14, 53, 224));
+    transition-duration: 12;
+}
+
+/*----------- contact form end from here ------------*/
+/*-------- rwd start from here ---------*/
+html{font-size: 62.5%;}
+@media(max-width:1200px) {
+    html{font-size: 60.5%;}
+}
+
+@media(max-width:1000px) {
+    html{font-size: 50.5%;}
+    body{ background-color: rgb(245, 7, 166); color: white;}
+}
+
+@media(max-width:900px) {
+    html{font-size: 40.5%;}
+}
+
+@media(max-width:700px) {
+    html{font-size: 30.5%;}
+    body{ background-color: rgb(7, 11, 245); color: white;}
+}
+
+@media(max-width:500px) {
+    html{font-size: 28.5%;}
+}
+/*-------- rwd end from here ---------*/

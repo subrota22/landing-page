@@ -1,0 +1,81 @@
+
+
+/*----------- grid start end from here ------------*/
+.grid > .gridTop{
+    grid-area: gird-top;
+    text-align: center;
+    background-color: rgb(0, 255, 21);
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.grid > .gridLeft{
+    grid-area: gird-left;
+    text-align: center;
+    background-color: rgb(98, 0, 255);
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.grid > .gridMain{
+    grid-area: gird-main;
+    text-align: center;
+    background-color: rgb(255, 0, 106);
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.grid > .gridRight{
+    grid-area: gird-right;
+    text-align: center;
+    background-color: rgb(255, 0, 76);
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.grid > .girdBottom{
+    grid-area: gird-bottom;
+    text-align: center;
+    background-color: rgba(13, 231, 13, 0.781);
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+    "gird-top  gird-top gird-top gird-top gird-top gird-top" 
+    " gird-left  gird-left gird-main gird-main gird-right gird-right" 
+    "gird-bottom gird-bottom gird-bottom gird-bottom gird-bottom gird-bottom"
+    
+    ;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0  2rem 5rem lime ;
+}
+/*----------- grid end end from here ------------*/
+/*-------- rwd start from here ---------*/
+html{font-size: 62.5%;}
+@media(max-width:1200px) {
+    html{font-size: 60.5%;}
+}
+
+@media(max-width:1000px) {
+    html{font-size: 50.5%;}
+    body{ background-color: rgb(245, 7, 166); color: white;}
+}
+
+@media(max-width:900px) {
+    html{font-size: 40.5%;}
+}
+
+@media(max-width:700px) {
+    html{font-size: 30.5%;}
+    body{ background-color: rgb(7, 11, 245); color: white;}
+}
+
+@media(max-width:500px) {
+    html{font-size: 28.5%;}
+}
+/*-------- rwd end from here ---------*/

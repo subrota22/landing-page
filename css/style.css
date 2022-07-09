@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+/*---- nav div start from here */
+.navDiv{   
+   width: 100%;
+    display: flex;
+    background-color: rgba(13, 45, 223, 0.7);
+    padding: 3rem;
+}
+.navLeft{
+ width: 50%;
+}
+.navRight{
+    width: 50%;
+}
+
+.navDiv > .navRight > ul > li{
+    list-style-type: none;
+    float: left;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#navLogo{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+#dropDown{
+    display:none; list-style: none;
+    width: 25rem;
+    height: auto;
+    padding: 4rem;
+    background-color: rgba(11, 59, 194, 0.678);
+    position: absolute;
+}
+#moreLink:hover>#dropDown{
+    display: block; 
+    transition-duration: 1s;
+}
+
+/*----------- nav div end from here ------------*/
+
+/*----------- main div start from here ------------*/
+.mainDiv{
+    background-image: url("https://c8.alamy.com/comp/M51TNR/sweet-couple-in-love-in-the-park-M51TNR.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    z-index: -1;
+}
+
+.button{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    border-radius: 3rem;
+    border:none;
+    font-size: 2rem;
+    color: white;
+    margin-left: 60rem;
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 0rem 2rem 5rem;
+    background-image: linear-gradient(to right , orange ,  red);
+}
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right , rgb(18, 61, 202) ,  rgba(224, 13, 13, 0.918));
+}
+
+/*----------- young love div start from here ------------*/
+.youngLoveDiv{
+    width: 100%;
+    display: flex;
+}
+.youngLoveDivLeft{
+    width: 60%;
+    height: auto;
+    padding:3rem;
+    font-size: 2rem;
+    color: darkblue;
+}
+.youngLoveDivRight{
+    width: 40%;
+    margin: 2rem;
+    height: auto;
+    text-align: center;
+    border-left: 0.7rem solid blue;
+    box-shadow:  0  2rem 5rem blue;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.loveImage{
+    height: 35rem;
+    width: 45rem;
+   border-radius: 4rem;
+   padding: 2rem ;
+}
+/*----------- young love div end from here ------------*/
+
+
+
+/*----------- young love part2 div start from here ------------*/
+.youngLoveDiv2{
+    width: 100%;
+    display: flex;
+}
+.youngLoveDivLeft2{
+   width: 40%;
+    margin: 2rem;
+    height: auto;
+    text-align: center;
+    border-left: 0.7rem solid lime;
+    box-shadow:  0  2rem 5rem lime;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.youngLoveDivRight2{
+    width: 60%;
+    height: auto;
+    padding:3rem;
+    font-size: 2rem;
+    color: darkblue;
+    
+}
+.loveImage{
+    height: 35rem;
+    width: 45rem;
+   border-radius: 4rem;
+   padding: 2rem ;
+}
+/*----------- young love part2 div end from here ------------*/
+
+
+/*----------- young love div start from here ------------*/
+.youngLoveDiv3{
+    width: 100%;
+    display: flex;
+}
+.youngLoveDivLeft3{
+    width: 22%;
+    margin-left: 3rem;
+    height: auto;
+    text-align: center;
+    border-left: 0.7rem solid blue;
+    box-shadow:  0  2rem 5rem blue;
+    border-radius: 2rem;
+}
+.youngLoveDivRight3{
+    width: 22%;
+    margin-left: 3rem;
+    height: auto;
+    text-align: center;
+    border-left: 0.7rem solid rgb(230, 171, 11);
+    box-shadow:  0  2rem 5rem rgba(224, 135, 0, 0.884);
+    border-radius: 2rem;
+}
+.mainLeft{
+    width: 22%;
+    margin-left: 3rem;
+    height: auto;
+    text-align: center;
+    border-left: 0.7rem solid rgb(236, 10, 78);
+    box-shadow:  0  2rem 5rem rgb(240, 3, 23);
+    border-radius: 2rem;
+}
+.mainRight{
+    width: 22%;
+    margin-left: 3rem;
+    height: auto;
+    text-align: center;
+    border-left: 0.7rem solid rgba(9, 214, 204, 0.473);
+    box-shadow:  0  2rem 5rem rgb(10, 207, 148);
+    border-radius: 2rem;
+}
+
+.loveImage2{
+    height: 25rem;
+    width: 100%;
+    padding-top: 2rem;
+}
+/*----------- young love div end from here ------------*/
+
+/*----------- form start from here ------------*/
+.form{
+    width: 50%;
+    margin-left: 40%; 
+    font-size: 2rem;
+    color: aqua;
+}
+#email , #name , #number{
+    border: none;
+    width: 60%;
+    padding: 3rem;
+    font-size: 2rem;
+    color: lime;
+    font-family: 'Raleway', sans-serif;
+}
+.btn{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    width: 25rem;
+    border: none;
+    border-radius: 4rem;
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    transition-duration: 12;
+    box-shadow:  0rem 1rem 3rem red;
+    background-image: linear-gradient(to right , rgb(255, 0, 64) , rgb(255, 153, 0));
+}
+ .btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right , rgb(11, 211, 27) , rgb(14, 53, 224));
+    transition-duration: 12;
+}
+/*----------- form  end from here ------------*/
+
+/*----------- main div end from here ------------*/
+/*-----------footer start from here ------------*/
+.footer{
+    background-color: rgba(12, 10, 10, 0.904);
+    width: 100%;
+    padding: 4rem;
+}
+/*----------- footer end end from here ------------*/
+/*-------- rwd start from here ---------*/
+html{font-size: 62.5%;}
+@media(max-width:1200px) {
+    html{font-size: 60.5%;}
+}
+
+@media(max-width:1000px) {
+    html{font-size: 50.5%;}
+}
+
+@media(max-width:900px) {
+    html{font-size: 40.5%;}
+}
+
+@media(max-width:700px) {
+    html{font-size: 30.5%;}
+    body{ background-color: rgb(245, 241, 7); color: white;}
+}
+
+@media(max-width:500px) {
+    html{font-size: 28.5%;}
+.loveImage2 {
+        height: 20rem;
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .loveImage{
+        height: 45rem;
+        width: 40rem;
+    }
+}
+/*-------- rwd end from here ---------*/

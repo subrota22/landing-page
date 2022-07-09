@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--css link-->
+<link rel="stylesheet" href="css/style.css"/>
+<!-- Google font family cdn -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+SA+Beginner&family=Finlandica:ital,wght@1,600&family=Gentium+Book+Plus:ital,wght@0,700;1,700&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Raleway:wght@200&family=Roboto&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"/>
+<title>Landing page</title>
+<link rel="shortcut icon" href="https://i.pinimg.com/originals/ae/44/99/ae449965e4b7ed3b186c69dce405abe7.png" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="refresh" content="600">
+</head>
+<body>
+ <section>
+      <!----------------- header start from here--------------->
+      <header>
+<nav>
+    <div class="navDiv">
+<div class="navLeft">
+<img src="https://cdn.w600.comps.canstockphoto.com/angel-and-heart-logo-clipart-vector_csp8758955.jpg" alt="logo" id="navLogo"/>
+</div>
+<div class="navRight">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" target="_blank">About us</a></li>
+    <li><a href="contact.html" target="_blank">Contact us</a></li>
+    <li><a href="services.html" target="_blank">Services</a></li>
+    <li id="moreLink">
+        <a href="">More link</a>
+        <ul id="dropDown" >
+            <li><a href="http://subrotachandra.lovestoblog.com/login.html" target="_blank">My website</a></li>
+            <li><a href="https://subrota22.github.io/protfolio/" target="_blank">Portfolio</a></li>
+            <li><a href="https://subrota22.github.io/my-asignment/" target="_blank">Asignment </a></li>
+            <li><a href="https://subrota22.github.io/food-page/" target="_blank">Food page</a></li>
+        </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+</nav>
+<br>
+<center>
+  <a href="#down" id="up">
+    <img src="data:image/jpeg;base64,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" alt="down arrow" height="40rem" width="40rem">
+  </a>
+</center>
+<br>
+    </header>
+      <!----------------- header end from here--------------->
+
+        <!----------------- main start from here--------------->
+        <main>
+<div class="mainDiv">
+    <h2 style="text-align: center; font-size: 5rem; color: white;">
+       Text for your <br>
+       <span style="color: lime ;">partner</span>
+       <br>
+      </h2>
+<br>
+<p style="text-align: center; font-size: 2rem; color: rgb(15, 18, 190); text-shadow:0 0 0 12rem lime;">
+    When it comes to Southern romance, it's no secret that choosing the right words is important. Crafting the perfect romantic message and expressing how much you care about someone may be difficult, but it can also be incredibly rewarding. Making your love known to that special someone is one of those little things that not just keep relationships alive, but also helps them flourish.
+
+    If you need a dash of inspiration, explore these short and long love messages in a variety of formats, including quotes from notable authors, text messages, love letters, Southern love poems, and more. Love messages can also touch on just the right tone you may be going for—romantic, sweet, funny, cute, witty, or even sad.
+    
+    Greet your loved one with a sweet message in the morning to start their day right, or say good night with a romantic text after a long day. Whether it's a special occasion or simply another day on the calendar, your loved one is sure to appreciate any romantic messages you might leave them!
+</p> 
+<br>
+<a href="#gfbf"><button class="button">Find your partner</button></a>
+<br><br><br><br><br><br><br><br>
+</div>     
+<br><br><br><br>
+<!--Younger love start from here-->
+<div class="youngLoveDiv">
+    <div class="youngLoveDivLeft">
+  <head>
+    <h2 style="text-align: center; font-size: 5rem; color: rgb(29, 197, 13);"> Young love feeling </h2>
+  </head>
+  <br>
+  <p style="text-align: center; font-size: 3rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+   Younger stronger love 
+</p>
+<br>
+<p style="text-align: center; font-size: 2rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+    Men may not always be the most verbal or openly emotional creatures, but that doesn't mean they don't want to hear how you feel! Letting that special man in your life know that he's your world with a short love message will surely make him glow with pride. To help you express just how much you enjoy his presence in your life, take a look at these romantic love messages for him!
+ </p>
+    </div>
+    <div class="youngLoveDivRight">
+        <img src="https://st3.depositphotos.com/1018174/18020/i/450/depositphotos_180200248-stock-photo-handsome-man-hugging-his-sensual.jpg" alt="love picture" class="loveImage"/>
+    <br>
+        <p style="text-align: center; font-size: 3rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+           Make love make happy
+         </p>
+    </div>
+</div>
+<!--Younger love end from here-->
+
+<!--Younger love part2 start from here-->
+<div class="youngLoveDiv2">
+    <div class="youngLoveDivLeft2">
+ <img src="https://i.pinimg.com/736x/f6/73/3a/f6733a601c373b9486df81e34e509fb5.jpg" alt="love picture" class="loveImage"/>
+ <br>
+     <p style="text-align: center; font-size: 3rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+       Love is heaven
+      </p>
+    </div>
+    <div class="youngLoveDivRight2">
+        <head>
+     <h2 style="text-align: center; font-size: 5rem; color: rgb(29, 197, 13);"> Heart touching love</h2>
+          </head>
+          <br>
+          <p style="text-align: center; font-size: 3rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+           Love in the sky 
+        </p>
+        <br>
+        <p style="text-align: center; font-size: 2rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+            If you want to make your wife or girlfriend feel appreciated, then giving her a thoughtful reminder of your feelings is a great place to start. But great romantic sayings are more than just a string of clichés put together—they're a sincere expression of your affection! Whether you're celebrating a particular occasion or simply reminding her that she's special, these romantic love messages for her are sure to bring a smile to her face!
+         </p>
+        
+    </div>
+</div>
+<!--Younger love part2 end from here-->
+<br><br><br><br><br><br>
+<!--Younger love part3 start from here-->
+<div class="youngLoveDiv3">
+    <div class="youngLoveDivLeft3">
+ <img src="https://www.teahub.io/photos/full/8-84551_cute-love-couple-wallpapers-for-mobile-love-couple.jpg" alt="love picture" class="loveImage2"/>
+ <br>
+     <p style="text-align: center; font-size: 2rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+       Love is forever
+      </p>
+    </div>
+    <div class="mainLeft">
+        <img src="https://statuswaale.com/wp-content/uploads/2021/09/Couple-Poses-1024x576.jpg" alt="love picture" class="loveImage2"/>
+        <br>
+            <p style="text-align: center; font-size: 2rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+              Love is everywhere
+             </p>
+    </div>
+    <div class="mainRight">
+        <img src="https://i.pinimg.com/originals/03/42/ca/0342caaea22fd05d9b7770383a1c9036.jpg" alt="love picture" class="loveImage2"/>
+        <br>
+            <p style="text-align: center; font-size: 2rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+              Love is only truth
+             </p>
+    </div>
+    <div class="youngLoveDivRight3">
+        <img src="https://wallpaperaccess.com/full/7372288.jpg" alt="love picture" class="loveImage2"/>
+        <br>
+   
+     <p style="text-align: center; font-size: 2rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+       Love is only peace
+      </p>
+    </div>
+</div>
+<br><br><br><br><br><br>
+<br><br>
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/cgFq9x92H-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<br><br>
+   <!----------------- from start from here--------------->
+<form action="https://formsubmit.co/itinfobd24@gmail.com" method="post" class="form" id="gfbf">
+<br>
+<p style="margin-left: 2%; font-size: 6rem; color: rgb(18, 18, 209); text-shadow:0 0 0 12rem lime;">
+    Find your love
+   </p>
+<br>
+<div class="form-group">
+    <label for="name">Name</label>
+ <br>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required/>  
+</div>
+<hr style="width: 60% ;"/>
+<br>
+<div class="form-group">
+    <label for="email"> Email</label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="Enter your email" required/>  
+</div>
+<hr style="width: 60% ;"/>
+<br>
+<div class="form-group">
+  <label for="number">Phone Number </label>
+  <br>
+    <input type="number" name="number" id="number" placeholder="Enter your phone number" required/>  
+</div>
+<hr style="width: 60% ;"/>
+<br>
+<div class="form-group">
+    <label for="gender"> Gender</label>
+    <br><br>
+  <input type="radio" name="Male" id="male" value="Male"/>  <label for="male">Male</label> 
+  <input type="radio" name="Female" id="female" value="Female"/> <label for="female">Female</label> 
+</div>
+<br><br>
+<div class="form-group">
+   <input type="submit"  value="Send your data" class="btn"/>  
+   <input type="reset" value="Reset" class="btn" style="margin-left: 2rem ;"/>
+</div>
+</form>
+   <!----------------- form end from here--------------->
+<!--Younger love part3 end from here-->
+<br><br><br><br><br><br>
+<!--Younger love part2 start from here-->
+<div class="youngLoveDiv2">
+  <div class="youngLoveDivLeft2">
+<img src="https://images.unsplash.com/photo-1558037865-65d4bcdc37ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bG92ZSUyMGNvdXBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="love picture" class="loveImage"/>
+<br>
+   <p style="text-align: center; font-size: 3rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+     Love is heaven
+    </p>
+  </div>
+  <div class="youngLoveDivRight2">
+      <head>
+   <h2 style="text-align: center; font-size: 5rem; color: rgb(29, 197, 13);"> Heart purifying love</h2>
+        </head>
+        <br>
+        <p style="text-align: center; font-size: 3rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+         Love is everywhere  
+      </p>
+      <br>
+      <p style="text-align: center; font-size: 2rem; color: rgb(3, 3, 14); text-shadow:0 0 0 12rem lime;">
+          If you want to make your wife or girlfriend feel appreciated, then giving her a thoughtful reminder of your feelings is a great place to start. But great romantic sayings are more than just a string of clichés put together—they're a sincere expression of your affection! Whether you're celebrating a particular occasion or simply reminding her that she's special, these romantic love messages for her are sure to bring a smile to her face!
+       </p>
+      
+  </div>
+</div>
+<!--Younger love part2 end from here-->
+<br><br><br><br>
+</main>
+          <!----------------- main start from here--------------->
+
+            <!----------------- footer start from here--------------->
+        <footer>
+          <br>
+<center>
+  <a href="#up" id="down">
+    <img src="https://www.freeiconspng.com/uploads/blue-up-arrow-png-31.jpg" alt="down arrow" height="50rem" width="50rem">
+  </a>
+</center>
+<br>
+<div class="footer">
+    <h2 style="font-size: 5rem; color:white;  text-align: center;  font-family: 'Dancing Script', cursive;"> Find your true love </h2>
+</div>
+        </footer>
+
+          <!----------------- footer end from here--------------->
+       </section> 
+
+</body>
+</html>
+
