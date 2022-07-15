@@ -36,7 +36,8 @@ a{
 }
 
 #dropDown{
-    display:none; list-style: none;
+    display:none; 
+    list-style: none;
     width: 25rem;
     height: auto;
     padding: 4rem;
@@ -45,8 +46,8 @@ a{
  
 }
 #moreLink:hover>#dropDown{
-    display: block; 
     transition-duration: 1s;
+    display: block;
 }
 
 /*----------- nav div end from here ------------*/
@@ -81,18 +82,30 @@ button:hover{
     background-image: linear-gradient(to right , rgb(18, 61, 202) ,  rgba(224, 13, 13, 0.918));
 }
 #down {
-animation: movedirection linear forwards infinite 10s;
+animation: movedirection linear forwards infinite 2s;
 }
 @keyframes movedirection {
     0%{
         transform: translateY(0rem);
     }
     100%{
-        transform: translateY(-15rem);
+        transform: translateY(-3rem);
     }
 }
 
-
+#up {
+    margin: auto;
+   display: inline-flex;
+   animation: up linear forwards infinite 2s;
+    }
+    @keyframes up {
+        0%{
+            transform: translateY(-2rem);
+        }
+        100%{
+            transform: translateY(-0rem);
+        }
+    }
     .youngLoveDiv:hover , .youngLoveDiv2:hover{
     transform: scale(0.8);
     transition-duration: 20s;
